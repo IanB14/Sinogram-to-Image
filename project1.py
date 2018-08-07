@@ -10,7 +10,8 @@ import scipy.misc                    ## Contains a package to save numpy arrays 
 ## Methods    
 
 
-"Radon transform method - turns an image into a sinogram"
+"Radon transform method - turns an image into a sinogram (Not used for reconstruction - this"
+"is how the original sinogram was generated"
 def radon(image, steps):        
     #Build the Radon Transform using 'steps' projections of 'image'. 
     projections = []        ## Accumulate projections in a list.
